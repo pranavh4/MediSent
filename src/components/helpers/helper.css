@@ -1,0 +1,38 @@
+.leftnav {
+  width: 13%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  margin-top: 10px;
+  z-index: 100;
+  height: 100%;
+}
+
+.list-group-item-dark {
+  background-color: #42444e;
+}
+
+.bar_top {
+  height: auto !important;
+  width: 100%;
+  background-color: #42444e;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.border_cust {
+  border: 1px solid black;
+}
+
+.background_helper {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  text-align: center;
+  background-image: url("/backgroundimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
