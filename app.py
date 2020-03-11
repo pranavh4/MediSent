@@ -11,7 +11,7 @@ def api_call():
     lat = r["lat"]
     lng = r["lng"]
     print(lat,lng)
-    r= requests.get("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={},{}&radius=1500&type=pharmacy&key=AIzaSyBxUsm4FKSPJtV9utKc6yKhgT6Jb6_tPLg".format(lat,lng))  
+    r= requests.get("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={},{}&radius=1500&type=pharmacy&key=API_KEY".format(lat,lng))  
     r = r.json()
     res = {"data":[]}
     for i in r["results"][:10]:
